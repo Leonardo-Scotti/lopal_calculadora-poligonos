@@ -9,7 +9,7 @@ public class Quadrado {
 	}
 	
 	public double calcularArea() {
-		double area = lado * lado;
+		double area = Math.pow(lado, lado);
 		return area;
 	}
 	

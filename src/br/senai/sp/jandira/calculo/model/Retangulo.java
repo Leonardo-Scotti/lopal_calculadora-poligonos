@@ -19,7 +19,7 @@ public class Retangulo {
 	}
 	
 	public double calcularPerimetro() {
-		double perimetro = (base * 2) + (altura * 2);
+		double perimetro = Math.pow(base, base) + Math.pow(altura, altura);
 		return perimetro;
 	}
 	
