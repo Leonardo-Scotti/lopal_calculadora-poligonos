@@ -9,7 +9,7 @@ public class Circunferencia {
 	}
 	
 	public double calcularArea() {
-		double area = Math.pow(raio, raio) * Math.PI;
+		double area = Math.PI * Math.pow(raio, 2);
 		return area;
 	}
 	
