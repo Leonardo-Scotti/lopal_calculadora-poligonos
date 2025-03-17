@@ -1,5 +1,7 @@
 package br.senai.sp.jandira.calculo;
 
+import java.util.Scanner;
+
 import br.senai.sp.jandira.calculo.model.Circunferencia;
 import br.senai.sp.jandira.calculo.model.Quadrado;
 import br.senai.sp.jandira.calculo.model.Retangulo;
@@ -11,9 +13,11 @@ public class CalculadoraPoligonos {
 	public static void main(String[] args) {
 		
 		//Criação dos objetos
-		
 		//Quadrado
 		Quadrado quadrado1 = new Quadrado();
+		
+		Scanner leitor = new Scanner(System.in);
+		
 		quadrado1.setLado(5);
 		quadrado1.exibirDados();
 		
