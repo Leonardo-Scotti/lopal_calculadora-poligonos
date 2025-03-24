@@ -3,6 +3,7 @@ package br.senai.sp.jandira.calculo.dao;
 import java.util.Scanner;
 
 import br.senai.sp.jandira.calculo.model.Trapezio;
+import br.senai.sp.jandira.calculo.ui.Menu;
 
 public class TrapezioDao {
 
@@ -25,6 +26,8 @@ public class TrapezioDao {
 		
 		System.out.println();
 		trapezio.exibirDados();
+		
+		Menu.retornar();
 		
 		leitor.close();
 	}

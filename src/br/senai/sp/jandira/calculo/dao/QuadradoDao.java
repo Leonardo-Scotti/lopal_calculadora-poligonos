@@ -3,6 +3,7 @@ package br.senai.sp.jandira.calculo.dao;
 import java.util.Scanner;
 
 import br.senai.sp.jandira.calculo.model.Quadrado;
+import br.senai.sp.jandira.calculo.ui.Menu;
 
 public class QuadradoDao {
 	
@@ -19,6 +20,8 @@ public class QuadradoDao {
 		
 		System.out.println();
 		quadrado.exibirDados();
+		
+		Menu.retornar();
 		
 		leitor.close();
 	}

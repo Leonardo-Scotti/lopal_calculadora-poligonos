@@ -3,6 +3,7 @@ package br.senai.sp.jandira.calculo.dao;
 import java.util.Scanner;
 
 import br.senai.sp.jandira.calculo.model.Circunferencia;
+import br.senai.sp.jandira.calculo.ui.Menu;
 
 public class CircunferenciaDao {
 
@@ -19,6 +20,8 @@ public class CircunferenciaDao {
 		
 		System.out.println();
 		circunferencia.exibirDados();
+		
+		Menu.retornar();
 		
 		leitor.close();
 	}

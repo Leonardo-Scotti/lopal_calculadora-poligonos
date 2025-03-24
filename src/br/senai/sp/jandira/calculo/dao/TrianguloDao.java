@@ -3,6 +3,7 @@ package br.senai.sp.jandira.calculo.dao;
 import java.util.Scanner;
 
 import br.senai.sp.jandira.calculo.model.Triangulo;
+import br.senai.sp.jandira.calculo.ui.Menu;
 
 public class TrianguloDao {
 
@@ -22,6 +23,8 @@ public class TrianguloDao {
 		
 		System.out.println();
 		triangulo.exibirDados();
+		
+		Menu.retornar();
 		
 		leitor.close();
 	}

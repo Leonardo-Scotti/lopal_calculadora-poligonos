@@ -5,7 +5,7 @@ public class Triangulo {
 	public double base;
 	public double altura;
 	
-	//Métodos set
+	//Métodos setters
 	public void setBase(double base) {
 		this.base = base;
 	}
