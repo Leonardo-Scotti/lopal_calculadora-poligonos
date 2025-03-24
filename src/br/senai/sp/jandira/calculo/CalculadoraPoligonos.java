@@ -1,7 +1,5 @@
 package br.senai.sp.jandira.calculo;
 
-import java.util.Scanner;
-
 import br.senai.sp.jandira.calculo.ui.Menu;
 
 public class CalculadoraPoligonos {
