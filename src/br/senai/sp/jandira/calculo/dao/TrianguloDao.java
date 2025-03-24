@@ -25,8 +25,7 @@ public class TrianguloDao {
 		triangulo.exibirDados();
 		
 		Menu.retornar();
-		
-		leitor.close();
+			
 	}
 		
 }

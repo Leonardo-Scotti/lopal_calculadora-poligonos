@@ -9,9 +9,9 @@ import br.senai.sp.jandira.calculo.dao.TrapezioDao;
 import br.senai.sp.jandira.calculo.dao.TrianguloDao;
 
 public class Menu {
-	
-	static Scanner leitor = new Scanner(System.in);
-	
+
+	static Scanner leitorMenu = new Scanner(System.in);
+
 	public static void criarMenu() {
 
 		System.out.println("=========================");
@@ -26,7 +26,7 @@ public class Menu {
 		System.out.println("------------------------");
 		System.out.print("Escolha uma opção (1-6): ");
 
-		int opcao = leitor.nextInt();
+		int opcao = leitorMenu.nextInt();
 
 		if (opcao == 1) {
 			QuadradoDao.criar();
@@ -39,7 +39,9 @@ public class Menu {
 		} else if (opcao == 5) {
 			CircunferenciaDao.criar();
 		} else if (opcao == 6) {
-
+			System.out.println("Programa Finalizado! Reinicie para calcular novamente.");
+			System.out.println("=========================");
+			System.exit(0);
 		} else {
 			System.out.println("Opção inválida! Você deve escolher uma opção entre 1 e 5!");
 		}
@@ -50,7 +52,7 @@ public class Menu {
 		// Perguntar ao usuário se ele deseja criar outra forma
 		System.out.print("Digite qualquer tecla e pressione ENTER para continuar... ");
 
-		leitor.next();
+		leitorMenu.next();
 
 		Menu.criarMenu();
 

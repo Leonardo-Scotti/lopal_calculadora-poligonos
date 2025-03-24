@@ -26,7 +26,6 @@ public class RetanguloDao {
 		
 		Menu.retornar();
 		
-		leitor.close();
 	}
 	
 }

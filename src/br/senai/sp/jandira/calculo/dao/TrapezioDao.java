@@ -29,7 +29,6 @@ public class TrapezioDao {
 		
 		Menu.retornar();
 		
-		leitor.close();
 	}
 	
 }

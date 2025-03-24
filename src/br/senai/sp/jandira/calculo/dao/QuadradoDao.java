@@ -20,10 +20,10 @@ public class QuadradoDao {
 		
 		System.out.println();
 		quadrado.exibirDados();
+	
 		
 		Menu.retornar();
-		
-		leitor.close();
+			
 	}
 	
 }

@@ -23,7 +23,6 @@ public class CircunferenciaDao {
 		
 		Menu.retornar();
 		
-		leitor.close();
 	}
 	
 }
