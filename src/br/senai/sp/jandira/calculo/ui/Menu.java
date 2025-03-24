@@ -43,7 +43,8 @@ public class Menu {
 			System.out.println("=========================");
 			System.exit(0);
 		} else {
-			System.out.println("Opção inválida! Você deve escolher uma opção entre 1 e 5!");
+			System.out.println("Opção inválida! Você deve escolher uma opção entre 1 e 6!");
+			criarMenu();
 		}
 
 	}
