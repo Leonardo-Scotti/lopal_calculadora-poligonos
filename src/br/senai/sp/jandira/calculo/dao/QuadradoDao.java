@@ -10,15 +10,17 @@ public class QuadradoDao {
 		
 		Scanner leitor = new Scanner(System.in);
 		
-		
+		System.out.println();
 		System.out.println("Criando um quadrado...");
-		
 		Quadrado quadrado = new Quadrado();
 		
 		System.out.print("Digite a medida do lado do quadrado: ");
-		
 		quadrado.setLado(leitor.nextDouble());
+		
+		System.out.println();
 		quadrado.exibirDados();
+		
+		leitor.close();
 	}
 	
 }

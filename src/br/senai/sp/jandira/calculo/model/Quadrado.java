@@ -4,20 +4,24 @@ public class Quadrado {
 	
 	private double lado;
 	
+	//Método set
 	public void setLado(double lado) {
 		this.lado = lado;
 	}
 	
+	
+	//Métodos de calculo
 	public double calcularArea() {
 		double area = Math.pow(lado, 2);
 		return area;
 	}
 	
 	public double calcularPerimetro() {
-		double perimetro = lado * 4;
+		double perimetro = 2 * (lado * 2);
 		return perimetro;
 	}
 	
+	//Método de exibição
 	public void exibirDados() {
 		System.out.println("----------------");
 		System.out.println("    Quadrado    ");

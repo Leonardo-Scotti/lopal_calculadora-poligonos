@@ -5,6 +5,7 @@ public class Triangulo {
 	public double base;
 	public double altura;
 	
+	//Métodos set
 	public void setBase(double base) {
 		this.base = base;
 	}
@@ -13,11 +14,13 @@ public class Triangulo {
 		this.altura = altura;
 	}
 	
+	//Método de calculo
 	public double calcularArea() {
 		double area = (base * altura) / 2;
 		return area;
 	}
 	
+	//Método de exibição
 	public void exibirDados() {
 		System.out.println("-----------------");
 		System.out.println("    Triângulo    ");

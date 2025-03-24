@@ -5,6 +5,7 @@ public class Retangulo {
 	public double base;
 	public double altura;
 	
+	//Métodos set
 	public void setBase(double base) {
 		this.base = base;
 	}
@@ -13,16 +14,18 @@ public class Retangulo {
 		this.altura = altura;
 	}
 	
+	//Métodos de calculo
 	public double calcularArea() {
 		double area = base * altura;
 		return area;
 	}
 	
 	public double calcularPerimetro() {
-		double perimetro = Math.pow(base, 2) + Math.pow(altura, 2);
+		double perimetro = 2 * (base + altura);
 		return perimetro;
 	}
 	
+	//Método de exibição
 	public void exibirDados() {
 		System.out.println("-----------------");
 		System.out.println("    Retângulo    ");

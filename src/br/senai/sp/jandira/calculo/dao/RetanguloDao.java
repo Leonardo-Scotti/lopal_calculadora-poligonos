@@ -10,6 +10,7 @@ public class RetanguloDao {
 		
 		Scanner leitor = new Scanner(System.in);
 		
+		System.out.println();
 		System.out.println("Criando um Retângulo...");
 		Retangulo retangulo = new Retangulo();
 		
@@ -19,7 +20,10 @@ public class RetanguloDao {
 		System.out.println("Digite a medida da altura: ");
 		retangulo.setAltura(leitor.nextDouble());
 		
+		System.out.println();
 		retangulo.exibirDados();
+		
+		leitor.close();
 	}
 	
 }

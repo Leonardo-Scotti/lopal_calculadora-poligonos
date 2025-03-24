@@ -5,6 +5,7 @@ public class Trapezio {
 	private double baseMenor;
 	private double altura;
 	
+	//Métodos set
 	public void setBaseMaior(double baseMaior) {
 		this.baseMaior = baseMaior;
 	}
@@ -17,11 +18,13 @@ public class Trapezio {
 		this.altura = altura;
 	}
 	
+	//Método de calculo 
 	public double calcularArea() {
 		double area = ((baseMaior + baseMenor) * altura) / 2;
 		return area;
 	}
 	
+	//Método de exibição
 	public void exibirDados() {
 		System.out.println("----------------");
 		System.out.println("    Trapézio    ");

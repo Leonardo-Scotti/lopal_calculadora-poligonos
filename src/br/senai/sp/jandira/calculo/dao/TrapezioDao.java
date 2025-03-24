@@ -10,6 +10,7 @@ public class TrapezioDao {
 		
 		Scanner leitor = new Scanner(System.in);
 		
+		System.out.println();
 		System.out.println("Criando um Trapézio...");
 		Trapezio trapezio = new Trapezio();
 		
@@ -22,7 +23,10 @@ public class TrapezioDao {
 		System.out.print("Digite a medida da altura: ");
 		trapezio.setAltura(leitor.nextDouble());
 		
+		System.out.println();
 		trapezio.exibirDados();
+		
+		leitor.close();
 	}
 	
 }
